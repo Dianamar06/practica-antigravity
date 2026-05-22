@@ -1,4 +1,3 @@
-cat > pages/api/products.js << 'EOF'
 // API Route creada automáticamente por Antigravity
 // Instrucción: "Crea un endpoint GET /api/products que devuelva lista de productos"
 
@@ -10,4 +9,3 @@ export default function handler(req, res) {
   ];
   res.status(200).json(products);
 }
-EOF
